@@ -14,5 +14,5 @@ A **Random Number Generator** built with JavaScript, where users can specify a s
 2. Click **Generate** to get a random number.
 
 #### Links
-- **Live Demo**: [adrishti.randomnumbergenerator.netlify.app](https://adrishti.randomnumbergenerator.netlify.app)
-- **GitHub Repository**: [Random Number Generator on GitHub](https://github.com/adrishtii/100DaysJSChallenge/tree/main/Random%20Number%20Generator)
+- **Live Demo**: [Netlify Link](https://adrishtirandomnumbergenerator.netlify.app/)
+- **GitHub Repository**: [Random Number Generator GitHub Link](https://github.com/adrishtii/100DaysJSChallenge/edit/main/Random%20Number%20Generator/)
