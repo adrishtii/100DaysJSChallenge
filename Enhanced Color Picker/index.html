@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="title">Welcome to Enhanced <span class="spa">Color </span>Generator</h1><br>
+    
+    <div class="slider-container">
+        <p id="num" class="num">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        
+        <div class="vertical-slider">
+            <input type="range" min="0" id="r" max="255" value="138" oninput="updateValue()">
+            <p id="sliderValue1">138</p>
+        </div>
+        <div class="vertical-slider">
+            <input type="range" min="0" id="g" max="255" value="43" oninput="updateValue()">
+            <p id="sliderValue2">43</p>
+        </div>
+        <div class="vertical-slider">
+            <input type="range" min="0" id="b" max="255" value="226" oninput="updateValue()">
+            <p id="sliderValue3">226</p>
+        </div>
+    </div>
+
+    <button id="rgbValue" class="rgbValue" onclick="copyIt()">#8A2BE2</button>
+    <button onclick="generate()">Generate Random Color</button><br>
+    
+    <script src="script.js"></script>
+</body>
+</html>
